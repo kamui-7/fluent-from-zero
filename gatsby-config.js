@@ -22,23 +22,23 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Fluent From Zero`,
-        short_name: `FFZ`,
-        start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
-        display: `standalone`,
-        icon: "static/favicon.png",
-        icon_options: {
-          purpose: "maskable",
-        },
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `Fluent From Zero`,
+    //     short_name: `FFZ`,
+    //     start_url: `/`,
+    //     background_color: `#f7f0eb`,
+    //     theme_color: `#a2466c`,
+    //     display: `standalone`,
+    //     icon: "static/favicon.png",
+    //     icon_options: {
+    //       purpose: "maskable",
+    //     },
+    //   },
+    // },
   ],
 };

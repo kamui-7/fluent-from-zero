@@ -8,18 +8,32 @@ const Footer = () => {
       <div className="seperator"></div>
       <footer id="footer">
         <div className="footer__social-media">
-          <a href="https://discord.gg/QgYDuYCWux">
+          <a
+            href="https://discord.gg/QgYDuYCWux"
+            aria-label="Link to fluent from zero discord"
+            target="_blank"
+            rel="noopener"
+          >
             <FaPatreon className="footer__discord" />
           </a>
 
-          <a href="https://www.patreon.com/FluentFromZero">
+          <a
+            href="https://www.patreon.com/FluentFromZero"
+            aria-label="Link to fluent from zero patreon"
+            target="_blank"
+            rel="noopener"
+          >
             <FaDiscord className="footer__patreon" />
           </a>
         </div>
         <ul className="footer__links">
           <li>&copy; 2020, Fluent From Zero</li>
           <li>
-            <a href="https://github.com/kamui-7/Fluent-From-Zero/blob/main/LICENSE">
+            <a
+              href="https://github.com/kamui-7/Fluent-From-Zero/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener"
+            >
               License
             </a>
           </li>

@@ -12,11 +12,13 @@ const CallToAction = () => {
           href="https://discord.gg/QgYDuYCWux"
           target="_blank"
           className="button-primary"
+          rel="noopener"
         >
           Join Server
         </a>
         <a
           href="https://www.patreon.com/FluentFromZero"
+          rel="noopener"
           target="_blank"
           className="button-brown"
         >

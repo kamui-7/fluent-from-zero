@@ -37,6 +37,7 @@ const Landing = () => {
             className="button-primary"
             target="_blank"
             href="https://discord.gg/QgYDuYCWux"
+            rel="noopener"
           >
             Join Server
           </a>
