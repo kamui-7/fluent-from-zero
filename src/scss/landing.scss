@@ -1,4 +1,4 @@
-.landing {
+#landing {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,6 +59,9 @@
         height: 16rem;
       }
     }
+  }
+  @media (max-width: 1235px) {
+    padding-top: 3rem;
   }
 
   @media (min-width: 1235px) {

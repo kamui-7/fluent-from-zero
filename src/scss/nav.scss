@@ -1,4 +1,12 @@
-.nav-bar {
+#nav-bar {
+  a {
+    color: $brown-text-color;
+    transition: all 150ms linear;
+
+    &:hover {
+      opacity: 80%;
+    }
+  }
   .nav-bar__logo {
     @extend %vertical-align;
     padding-top: 7px;
@@ -11,6 +19,7 @@
     p {
       font-size: 22px;
       padding-left: 10px;
+      color: $brown-text-color;
       font-weight: 300;
     }
   }

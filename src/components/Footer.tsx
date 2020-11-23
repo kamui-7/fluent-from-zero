@@ -1,31 +1,36 @@
 import React from "react";
 import { FaDiscord, FaPatreon } from "react-icons/fa";
-// import "../scss/footer.scss";
+import { Link } from "gatsby";
 
 const Footer = () => {
   return (
     <>
       <div className="seperator"></div>
-      <footer className="footer">
+      <footer id="footer">
         <div className="footer__social-media">
-          <a href="#">
+          <a href="https://discord.gg/QgYDuYCWux">
             <FaPatreon className="footer__discord" />
           </a>
 
-          <a href="#">
+          <a href="https://www.patreon.com/FluentFromZero">
             <FaDiscord className="footer__patreon" />
           </a>
         </div>
         <ul className="footer__links">
           <li>&copy; 2020, Fluent From Zero</li>
           <li>
-            <a href="#">License</a>
+            <a href="https://github.com/kamui-7/Fluent-From-Zero/blob/main/LICENSE">
+              License
+            </a>
           </li>
           <li>
-            <a href="#">Terms</a>
+            <Link to="/terms">Terms</Link>
           </li>
           <li>
-            <a href="#">Privacy</a>
+            <Link to="/privacy">Privacy</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </footer>

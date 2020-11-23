@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Img from "gatsby-image";
-import { StaticQuery, graphql } from "gatsby";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { StaticQuery, graphql, Link } from "gatsby";
 
 const Nav = () => {
   const [menuActive, setMenuActive] = useState(false);
@@ -11,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="nav-bar">
+    <nav id="nav-bar">
       {menuActive ? (
         <AiOutlineClose
           className="nav-bar__toggle-button"
@@ -22,15 +23,13 @@ const Nav = () => {
           className="nav-bar__toggle-button"
           onClick={toggleMenu}
         />
-      )}{" "}
-      <a href="#" className="nav-bar__logo">
+      )}
+      <a href="/" className="nav-bar__logo">
         <StaticQuery
           query={graphql`
             query {
               file(relativePath: { eq: "logo.png" }) {
                 childImageSharp {
-                  # Specify the image processing specifications right in the query.
-                  # Makes it trivial to update as your page's design changes.
                   fixed(width: 50) {
                     ...GatsbyImageSharpFixed
                   }
@@ -48,13 +47,17 @@ const Nav = () => {
         }
       >
         <li className="nav-bar__menu-item">
-          <a href="#">About</a>
+          <AnchorLink offset="150" href="#about">
+            About
+          </AnchorLink>
         </li>
         <li className="nav-bar__menu-item">
-          <a href="#">Benefit</a>
+          <AnchorLink offset="150" href="#benefits">
+            Benefits
+          </AnchorLink>
         </li>
         <li className="nav-bar__menu-item">
-          <a href="#">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

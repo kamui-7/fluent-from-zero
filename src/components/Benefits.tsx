@@ -11,15 +11,14 @@ import Img from "gatsby-image";
 const Benefits = () => {
   return (
     <div className="container">
-      <section className="benefits">
+      <section id="benefits">
         <div className="benefits__left-side">
           <h2 className="benefits__title">
-            Optimize your store for the search engines and gain the edge
+            What We Offer For Teaching Japanese
           </h2>
           <p className="benefits__features-desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
-            voluptatum aliquam earum nostrum eaque nihil rem libero
-            exercitationem, aperiam repellat quam esse voluptates, ut ipsa a!
+            We provide a learning pace to fit everyone's needs. This is what we
+            offer with our service:
           </p>
           <ul className="benefits__benefits-list">
             <li className="benefits__benefit">
@@ -59,9 +58,6 @@ const Benefits = () => {
             query {
               file(relativePath: { eq: "pros.webp" }) {
                 childImageSharp {
-                  # Specify the image processing specifications right in the query.
-                  # Makes it trivial to update as your page's design changes.
-                  # 500
                   fluid(maxWidth: 500) {
                     ...GatsbyImageSharpFluid
                   }

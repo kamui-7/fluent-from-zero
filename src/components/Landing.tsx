@@ -1,12 +1,11 @@
 import { StaticQuery, graphql } from "gatsby";
 import React from "react";
-import Wave from "../images/wave.svg";
 import Img from "gatsby-image";
 
 const Landing = () => {
   return (
     <>
-      <div className="landing">
+      <section id="landing">
         <div className="landing__left-main">
           <div className="landing__orange-circle" />
           <StaticQuery
@@ -24,7 +23,7 @@ const Landing = () => {
             render={(data) => (
               <Img
                 className="landing__daco"
-                fixed={data.file.childImageSharp.fluid}
+                fluid={data.file.childImageSharp.fluid}
               />
             )}
           />
@@ -34,11 +33,15 @@ const Landing = () => {
           <h2 className="landing__description">
             Start learning Japanese with us on Discord!
           </h2>
-          <a className="button-primary" href="#">
+          <a
+            className="button-primary"
+            target="_blank"
+            href="https://discord.gg/QgYDuYCWux"
+          >
             Join Server
           </a>
         </div>
-      </div>
+      </section>
     </>
   );
 };
