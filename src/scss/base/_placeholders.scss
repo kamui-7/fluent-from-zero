@@ -1,0 +1,18 @@
+%vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+%horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
+%full-center {
+  @extend %vertical-align;
+  justify-content: center;
+}
+%space-out {
+  @extend %vertical-align;
+  justify-content: space-between;
+}

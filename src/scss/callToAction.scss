@@ -1,0 +1,41 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  .call-to-action__top-text {
+    color: #b0afb5;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+  .call-to-action__title {
+    margin-top: 0.7rem;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .call-to-action__desc {
+    font-size: 14px;
+    margin-top: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: 300;
+    width: 85%;
+  }
+  .call-to-action__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 550px) {
+    width: 500px;
+    .call-to-action__buttons {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+    }
+  }
+}

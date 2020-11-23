@@ -1,0 +1,154 @@
+/**** Fonts ****/
+
+/* inter-300 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/inter-v2-latin-300.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v2-latin-300.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v2-latin-300.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-300.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v2-latin-300.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-300.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v2-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v2-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v2-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v2-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-regular.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+/* inter-500 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/inter-v2-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v2-latin-500.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v2-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-500.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v2-latin-500.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-500.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v2-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v2-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v2-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v2-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-600.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v2-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/inter-v2-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/inter-v2-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/inter-v2-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-700.svg#Inter")
+      format("svg"); /* Legacy iOS */
+}
+
+/**** General Styles ****/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $font-stack;
+  box-sizing: border-box;
+  // border: 1px solid #f00 !important;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.button-primary {
+  width: 163px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaa25b;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 14px;
+
+  &:hover {
+    opacity: 0.7;
+    transition: all 0.3s linear;
+  }
+}
+
+.button-secondary {
+  width: 163px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #eaa25b;
+  color: #eaa25b;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 1.5rem;
+  font-size: 14px;
+  &:hover {
+    opacity: 0.7;
+    transition: all 0.3s linear;
+  }
+}
+
+.landing-section {
+  background-color: $background-primary;
+}

@@ -1,0 +1,83 @@
+.about {
+  margin-top: 5rem;
+  .about__andreu-card {
+    display: flex;
+    height: 26rem;
+    max-width: 19rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(185, 181, 181, 0.2);
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+
+    .about__discord-icon {
+      img {
+        border-radius: 50%;
+        width: 80px;
+        border: 5px solid #f8f2f2;
+      }
+    }
+
+    .about__andreu-bio {
+      line-height: 25px;
+      color: #636168;
+      padding-bottom: 1.8rem;
+      padding-top: 1.8rem;
+      font-style: italic;
+    }
+
+    .about__andreu-title {
+      .about_-andreu-tag,
+      .about__andreu-role {
+        color: #414040;
+        font-weight: 500;
+      }
+      .about__andreu-tag {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .about__andreu-role {
+        padding-top: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .about__company {
+    max-width: 40rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    margin-top: 5rem;
+    .about__label {
+      color: #b0afb5;
+      letter-spacing: 2px;
+      font-size: 16px;
+    }
+    .about__title {
+      margin-top: 1rem;
+      font-size: 33px;
+      font-weight: 600;
+    }
+    .about__desc {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.3rem;
+      font-weight: 300;
+    }
+  }
+
+  @media (min-width: 1103px) {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1500px) {
+    width: 70%;
+  }
+}
