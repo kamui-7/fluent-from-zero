@@ -15,29 +15,29 @@ const Home = () => {
       <Helmet
         title="Fluent From Zero"
         meta={[
-          {
-            name: "viewport",
-            content: "width=device-width, initial-scale=1",
-          },
-          {
-            charSet: "utf-8",
-          },
-          {
-            name: "description",
-            content:
-              "Fluent From Zero is a Japanese learning service, that will help you reach a high level of fluency in Japanese.",
-          },
-          {
-            name: "keywords",
-            content: "FFZ",
-          },
-        ]}
-      >
+            {
+              name: "viewport",
+              content: "width=device-width, initial-scale=1",
+            },
+            {
+              charSet: "utf-8",
+            },
+            {
+              name: "description",
+              content:
+                "Fluent From Zero is a Japanese learning service, that will help you reach a high level of fluency in Japanese.",
+            },
+            {
+              name: "keywords",
+              content: "FFZ",
+            },
+          ]}
+        >
         <html lang="en" />
       </Helmet>
       <main>
         <section className="landing-section">
-          <Nav />
+          <Nav path="/"/>
           <Landing />
         </section>
         <img src={Wave} className="wave" alt="" />

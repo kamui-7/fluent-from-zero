@@ -9,7 +9,7 @@ const CallToAction = () => {
       </h2>
       <div className="call-to-action__buttons">
         <a
-          href="https://discord.gg/QgYDuYCWux"
+          href="https://discord.gg/YyjBw3ZW3T"
           target="_blank"
           className="button-primary"
           rel="noopener"

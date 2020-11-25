@@ -9,21 +9,21 @@ const Footer = () => {
       <footer id="footer">
         <div className="footer__social-media">
           <a
-            href="https://discord.gg/QgYDuYCWux"
+            href="https://www.patreon.com/FluentFromZero"
             aria-label="Link to fluent from zero discord"
             target="_blank"
             rel="noopener"
           >
-            <FaPatreon className="footer__discord" />
+            <FaPatreon className="footer__patreon" />
           </a>
 
           <a
-            href="https://www.patreon.com/FluentFromZero"
+            href="https://discord.gg/YyjBw3ZW3T"
             aria-label="Link to fluent from zero patreon"
             target="_blank"
             rel="noopener"
           >
-            <FaDiscord className="footer__patreon" />
+            <FaDiscord className="footer__discord" />
           </a>
         </div>
         <ul className="footer__links">
@@ -43,9 +43,9 @@ const Footer = () => {
           <li>
             <Link to="/privacy">Privacy</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/contact">Contact Us</Link>
-          </li>
+          </li> */}
         </ul>
       </footer>
     </>

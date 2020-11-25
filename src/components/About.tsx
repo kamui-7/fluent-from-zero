@@ -53,9 +53,15 @@ const About = () => {
           and tested on hundreds of other learners, always providing great
           results. And you can be next!
         </p>
-        <Link to="/contact" className="button-secondary">
+        <a 
+          className="button-secondary"
+          href="https://www.patreon.com/FluentFromZero"
+          target="_blank"
+          rel="noopener"
+        > Join Us </a>
+        {/* <Link to="/contact" className="button-secondary">
           Contact Us
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
