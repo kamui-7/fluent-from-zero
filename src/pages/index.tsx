@@ -8,7 +8,7 @@ import Wave from "../images/wave.svg";
 
 const Home = () => {
   return (
-    <Layout index={true}>
+    <Layout index={true} pathname="/">
       <img src={Wave} className="wave" alt="" />
       <About />
       <Benefits />

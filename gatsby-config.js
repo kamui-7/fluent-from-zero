@@ -8,6 +8,29 @@ const path = require("path");
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Fluent From Zero`,
+    description: `Fluent From Zero is a Japanese learning service, that will help you reach a high level of fluency in Japanese.`,
+    author: `@Luck`,
+    keywords: [
+      "Fluent From Zero",
+      "Learn Japanese",
+      "Japanese",
+      "Hiragana",
+      "Katakana",
+      "Japanese Language",
+      "Immersion",
+      "Study Japanese",
+    ],
+    siteUrl: "https://fluentzero.com",
+    lang: "en",
+    image:
+      "https://media.discordapp.net/attachments/699703291629535344/781261389879705670/discord-banner.jpg",
+    metaImage: {
+      width: "1177",
+      height: "662",
+    },
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-typescript`,
@@ -34,7 +57,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: "static/favicon.png",
+        icon: "src/images/favicon.png",
         icon_options: {
           purpose: "maskable",
         },

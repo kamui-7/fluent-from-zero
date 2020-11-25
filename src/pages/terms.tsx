@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const terms = () => {
   return (
-    <Layout>
+    <Layout pathname="/terms">
       <div className="legal-info">
         <h1 className="legal-info__title">
           Website Terms and Conditions of Use

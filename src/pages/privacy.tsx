@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const privacy = () => {
   return (
-    <Layout>
+    <Layout pathname="/privacy">
       <div className="legal-info">
         <h1 className="legal-info__title">
           Privacy Policy for Fluent From Zero
