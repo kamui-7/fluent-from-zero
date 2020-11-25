@@ -15,6 +15,7 @@ const Footer = () => {
             rel="noopener"
           >
             <FaPatreon className="footer__patreon" />
+
           </a>
 
           <a
@@ -24,6 +25,7 @@ const Footer = () => {
             rel="noopener"
           >
             <FaDiscord className="footer__discord" />
+
           </a>
         </div>
         <ul className="footer__links">

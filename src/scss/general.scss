@@ -5,6 +5,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
+  font-display: swap;
   src: url("../fonts/inter-v2-latin-300.eot"); /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/inter-v2-latin-300.eot?#iefix") format("embedded-opentype"),
@@ -17,29 +18,12 @@
       format("svg"); /* Legacy iOS */
 }
 
-/* inter-regular - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/inter-v2-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/inter-v2-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/inter-v2-latin-regular.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-regular.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../fonts/inter-v2-latin-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-regular.svg#Inter")
-      format("svg"); /* Legacy iOS */
-}
-
 /* inter-500 - latin */
 @font-face {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: url("../fonts/inter-v2-latin-500.eot"); /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/inter-v2-latin-500.eot?#iefix") format("embedded-opentype"),
@@ -57,6 +41,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
   src: url("../fonts/inter-v2-latin-600.eot"); /* IE9 Compat Modes */
   src: local(""),
     url("../fonts/inter-v2-latin-600.eot?#iefix") format("embedded-opentype"),
@@ -66,23 +51,6 @@
     /* Modern Browsers */ url("../fonts/inter-v2-latin-600.ttf")
       format("truetype"),
     /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-600.svg#Inter")
-      format("svg"); /* Legacy iOS */
-}
-
-/* inter-700 - latin */
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/inter-v2-latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("../fonts/inter-v2-latin-700.eot?#iefix") format("embedded-opentype"),
-    /* IE6-IE8 */ url("../fonts/inter-v2-latin-700.woff2") format("woff2"),
-    /* Super Modern Browsers */ url("../fonts/inter-v2-latin-700.woff")
-      format("woff"),
-    /* Modern Browsers */ url("../fonts/inter-v2-latin-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */ url("../fonts/inter-v2-latin-700.svg#Inter")
       format("svg"); /* Legacy iOS */
 }
 
@@ -121,7 +89,7 @@ img {
   border-radius: 30px;
   text-decoration: none;
   margin-top: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
 
   box-shadow: 0px 0px 7px #f0c192;

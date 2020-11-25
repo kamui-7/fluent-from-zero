@@ -11,7 +11,7 @@ const Landing = () => {
           <StaticQuery
             query={graphql`
               query {
-                file(relativePath: { eq: "daco.png" }) {
+                file(relativePath: { eq: "daco.webp" }) {
                   childImageSharp {
                     fluid {
                       ...GatsbyImageSharpFluid
