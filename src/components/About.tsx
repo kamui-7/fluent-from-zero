@@ -10,7 +10,7 @@ const About = () => {
         <StaticQuery
           query={graphql`
             query {
-              file(relativePath: { eq: "andreu_pfp.png" }) {
+              file(relativePath: { eq: "andreu_pfp.webp" }) {
                 childImageSharp {
                   fixed(width: 80) {
                     ...GatsbyImageSharpFixed
