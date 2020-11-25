@@ -1,12 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
-import "../scss/terms.scss";
 
 const terms = () => {
   return (
     <Layout>
-      <div className="terms">
-        <h1>Website Terms and Conditions of Use</h1>
+      <div className="legal-info">
+        <h1 className="legal-info__title">
+          Website Terms and Conditions of Use
+        </h1>
         <h2>1. Terms</h2>
 
         <p>
@@ -28,21 +29,21 @@ const terms = () => {
         </p>
 
         <ul>
-          <li>modify or copy the materials;</li>
+          <li>Modify or copy the materials;</li>
           <li>
-            use the materials for any commercial purpose or for any public
+            Use the materials for any commercial purpose or for any public
             display;
           </li>
           <li>
-            attempt to reverse engineer any software contained on Fluent From
+            Attempt to reverse engineer any software contained on Fluent From
             Zero's Website;
           </li>
           <li>
-            remove any copyright or other proprietary notations from the
+            Remove any copyright or other proprietary notations from the
             materials; or
           </li>
           <li>
-            transferring the materials to another person or "mirror" the
+            Transferring the materials to another person or "mirror" the
             materials on any other server.
           </li>
         </ul>
