@@ -65,8 +65,8 @@ function SEO({ pathname }) {
         },
         {
           name: "theme-color",
-          content: site.siteMetadata.color
-        }
+          content: site.siteMetadata.color,
+        },
         {
           property: `og:title`,
           content: title,
