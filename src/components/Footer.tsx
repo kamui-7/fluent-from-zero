@@ -14,7 +14,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            <FaPatreon className="footer__discord" />
+            <FaDiscord className="footer__patreon" />
           </a>
 
           <a
@@ -23,7 +23,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            <FaDiscord className="footer__patreon" />
+            <FaPatreon className="footer__discord" />
           </a>
         </div>
         <ul className="footer__links">
