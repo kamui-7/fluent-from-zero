@@ -14,6 +14,7 @@ function SEO({ pathname }) {
             keywords
             siteUrl
             lang
+            color
             image
             metaImage {
               width
@@ -63,6 +64,10 @@ function SEO({ pathname }) {
           name: "keywords",
           content: site.siteMetadata.keywords.join(","),
         },
+        {
+          name: "theme-color",
+          content: site.siteMetadata.color
+        }
         {
           property: `og:title`,
           content: title,

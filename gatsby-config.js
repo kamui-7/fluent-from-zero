@@ -30,6 +30,7 @@ module.exports = {
       width: "1177",
       height: "662",
     },
+    color: "#f7a207",
   },
   plugins: [
     {
