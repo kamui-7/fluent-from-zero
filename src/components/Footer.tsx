@@ -15,7 +15,6 @@ const Footer = () => {
             rel="noopener"
           >
             <FaPatreon className="footer__patreon" />
-
           </a>
 
           <a
@@ -25,7 +24,6 @@ const Footer = () => {
             rel="noopener"
           >
             <FaDiscord className="footer__discord" />
-
           </a>
         </div>
         <ul className="footer__links">
@@ -45,9 +43,10 @@ const Footer = () => {
           <li>
             <Link to="/privacy">Privacy</Link>
           </li>
-          {/* <li>
-            <Link to="/contact">Contact Us</Link>
-          </li> */}
+          <li>
+            {/* <Link to="/contact">Contact Us</Link> */}
+            <a href="mailto:fluentfromzero@gmail.com">Contact Us</a>
+          </li>
         </ul>
       </footer>
     </>
