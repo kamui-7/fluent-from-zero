@@ -56,7 +56,7 @@ module.exports = {
         short_name: `FFZ`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        theme_color: `#f7a207`,
         display: `standalone`,
         icon: "src/images/favicon.png",
         icon_options: {
